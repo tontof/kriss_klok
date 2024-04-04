@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>KrISS Klok</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="inc/img/favicon.ico">
+    <link rel="stylesheet" href="inc/css/style.css">
+    <link rel="stylesheet" href="inc/css/custom_animate.min.css">
+    <script src="inc/js/script.js"></script>
+  </head>
+  <body>
+    <div id="board" class="portrait"></div>
+    <div id="options" class="animate__animated animate__backInDown">
+      <div>
+        <h1>Settings</h1>
+        <fieldset>
+          <legend>Orientation</legend>
+          <label><input type="radio" name="orientation" value="landscape">Landscape</label>
+          <label><input type="radio" name="orientation" value="portrait">Portrait</label>
+          <label><input type="radio" name="orientation" value="auto">Auto</label>
+        </fieldset>
+        <fieldset>
+          <legend>Timer</legend>
+          <label>Number of timers: <input type="range" name="timer" value="2" min="2" max="10"></label><br>
+          <label>Time in seconds: <input type="number" name="time" value="60"></label><br>
+          <label>Interval in milliseconds: <input type="number" name="interval" value="61"></label>
+        </fieldset>
+        <span class="options">🗙</span>
+      </div>
+    </div>
+  </body>
+</html>
